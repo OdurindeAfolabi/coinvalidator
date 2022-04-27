@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+            crossorigin="anonymous"></script>
+    <link rel = "icon" type = "image/png" href = "img/coinvalidator.jpg">
+    <title>Coin Validator</title>
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white py-3 ">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Coin Validator</a>
+
+        <button
+                class="navbar-toggler"
+                data-bs-toggle="collapse"
+                data-bs-target="#navMenu"
+                type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#About">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="wallets.html">Wallets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Apps">Apps</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<section class="main_section">
+    <div style="alignment: center; display: block; margin-bottom: 100px">
+        <img src="img/check.png" class="img-fluid" width="350px" height="auto"
+             style="display: block;
+             margin-left: auto; margin-right: auto;
+             margin-bottom: 50px" alt="...">
+        <div style="text-align:center">
+            <h1 class="card-heading">Coin Validator</h1>
+            <div class="card-subheading">Open protocol for Validating various Wallets to DAaps Secure Server</div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container" style="display: inline-flex; margin-bottom: 100px; margin-left: auto; margin-right: auto">
+        <div class="row" style="display: block; width: 600px; margin-left: auto">
+            <h3 class="card-heading">What are Crypto Tokens?</h3>
+            <div class="card-subheading">The term crypto token refers to a special virtual currency token or how cryptocurrencies are denominated. These tokens represent fungible and tradable assets or utilities that reside on their own blockchains. Crypto tokens are often used to fundraise for crowd sales, but they can also be used as a substitute for other things. These tokens are usually created, distributed, sold, and circulated through the standard initial coin offering (ICO) process, which involves a crowdfunding exercise to fund project development.</div>
+        </div>
+        <div class="col_*_*" style="display: block">
+            <img src="img/bitcoin-a.png" class="row img-fluid" width="300" height="auto"
+                 style="display: block; margin-left: auto; margin-right: auto" alt="..."
+            >
+        </div>
+    </div>
+
+</section>
+<section>
+    <img src="img/bitcoin-b.png" class="img-fluid rounded mx-auto d-block" width="300px" height="auto"
+         style="display: block; margin-left:auto;" alt="..."
+    >
+    <div class="container" style="display: block; width: fit-content; margin:auto">
+        <div class="container" style="text-align: center; width: fit-content; margin: auto">
+            <h3 class="card-heading" style="margin-bottom: 10px">How do we Validate your Coins?</h3>
+            <div class=" card-subheading" style="text-align: center">There are various ways we can validate your tokens synchronized in the Blockchain Network </div>
+            <br>
+        </div>
+        <div class="container">
+            <ul style="text-align: justify-all">
+                <li><div class="card-subheading">This approach guarantees that the token is valid, not expired or revoked. Every backend service validates access token only by signature. Some services that have strong security requirements (e.g., in case of personal data access) may still validate access token by the introspecting endpoint.</div></li>
+                <br>
+                <li><div class="card-subheading">The ValidateToken method is called by the infrastructure to validate and extract the claims from the deserialized security token. These claims are returned in the collection of Claims Identity objects returned by the method. In the typical case, this collection will contain a single identity.</div></li><br>
+                <li><div class="card-subheading">By specifying a key here, the token can be validated without any need for the issuing server. What is needed, instead, is the location of the public key. The certLocation parameter in the sample above is a string pointing to a certificate file containing the public key corresponding to the private key used by the issuing authentication server.</div></li>
+                <br>
+            </ul>
+        </div>
+
+    </div>
+</section>
+<section>
+    <div style="text-align: center; margin-bottom: 100px">
+        <a class="btn btn-primary btn-lg"  style="width: 300px" href="wallets.html" role="button">Validate Coins in Wallet</a>
+    </div>
+    <div style="text-align: center; margin-bottom: 20px">
+        <h5>You can also enable wallet connect for your multiple iOS and Android wallets protocol.</h5>
+    </div>
+    <div style="text-align: center">
+        <a class="btn btn-primary btn-lg"  style="width: 350px" href="wallets.html" role="button">Connect to walletconnect now</a>
+    </div>
+
+</section>
+</body>
+</html>
